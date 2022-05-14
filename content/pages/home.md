@@ -1,17 +1,20 @@
 ---
-title: Hello, world.
-date: Last Modified 
+title: Introduction
+date: Last Modified
 permalink: /
 eleventyNavigation:
-  key: Hello 
+  key: Introduction
   order: 0
-  title: Hello, world.
+  title: Introduction
 ---
-You have successfully launched your spacebook. If you are new here, you may want to [read the docs](https://spacebook.app/) for tips and tricks on setting up your project.
 
-![Hello, world](/content/images/hello.jpg)
+Flowty is the Webflow optimisation tool for the carbon conscious designers. Build in Webflow, optimise with Flowty, host where you want.
 
-->*Onward...*<-
+Flowty’s code takes your Webflow site, runs the pages through the Eleventy static site generator, and applies a series of optimisations to the page content and assets. The output is good old fashioned HTML files. This allows sites to be hosted almost anywhere.
 
+You still use Webflow’s design and editing tools to build, publish, and maintain sites. Flowty takes care of optimising your site.
 
+## Requirements
 
+- A Webflow website
+- A host running Node version 16 or higher
