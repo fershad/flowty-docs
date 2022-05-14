@@ -631,6 +631,20 @@ select {
           color-adjust: exact;
 }
 
+[type='file'] {
+  background: unset;
+  border-color: inherit;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-size: unset;
+  line-height: inherit;
+}
+
+[type='file']:focus {
+  outline: 1px auto -webkit-focus-ring-color;
+}
+
 /* Set up some default image behavior for nicer images */
 
 img {
@@ -638,42 +652,61 @@ img {
   border-width: 2px !important;
   border-color: transparent !important;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
 img:hover {
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(243, 244, 246, var(--tw-border-opacity))
+  border-color: rgba(243, 244, 246, var(--tw-border-opacity));
 }
 
 /* Overrides for Tailwind Typography prose class */
 
 .dark .prose a {
   --tw-text-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
 .dark .prose a:hover {
   --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
+  color: rgba(209, 213, 219, var(--tw-text-opacity));
 }
 
-.dark .prose h1, .dark .prose h2, .dark .prose h3, .dark .prose h4, .dark .prose h5, .dark .prose h6 .prose hr, .dark .prose strong {
+.dark .prose h1, .dark .prose h2, .dark .prose h3, .dark .prose h4, .dark .prose h5, .dark .prose h6 .prose hr, .dark .prose strong, .dark .prose code {
   --tw-text-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
 }
 
-.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+.dark .prose code::before,
+  .dark .prose code::after {
+  content: "";
+}
+
+.dark .prose code {
+  --tw-bg-opacity: 1;
+  background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+}
+
+.prose code {
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}
+
+.prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
   scroll-margin-top: 3.5em;
 }
 
 .prose pre code {
-  overflow-x: auto !important
+  overflow-x: auto !important;
 }
 
 .prose .footer-nav a {
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 
 /* Define blockquotes and some standard callout blocks */
@@ -702,6 +735,34 @@ blockquote {
 
 blockquote {
   padding: 1rem;
+}
+
+.warning {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(153, 27, 27, var(--tw-bg-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(249, 250, 251, var(--tw-text-opacity));
+}
+
+.dark .warning, .dark .warning strong, .dark .warning em {
+  --tw-bg-opacity: 1;
+  background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
+}
+
+.warning, .warning strong, .warning em {
+  --tw-text-opacity: 1;
+  color: rgba(249, 250, 251, var(--tw-text-opacity));
+}
+
+.dark .warning, .dark .warning strong, .dark .warning em {
+  --tw-text-opacity: 1;
+  color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
 /* Overrides for nav/Table of Contents block */
@@ -751,28 +812,28 @@ nav ul li a.active {
 
 .dark .prose .footer-nav a:hover {
   --tw-text-opacity: 1 !important;
-  color: rgba(156, 163, 175, var(--tw-text-opacity)) !important;
+  color: rgba(229, 231, 235, var(--tw-text-opacity)) !important;
 }
 
 /* Utilities and misc */
 
-.adjust  p img, .adjust img, .adjust p iframe, .adjust iframe {
+.adjust p img, .adjust img, .adjust p iframe, .adjust iframe {
   margin-right: auto !important;
   margin-left: auto !important;
   padding: 0.5rem !important;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
-.adjust  p img:hover, .adjust img:hover {
+.adjust p img:hover, .adjust img:hover {
   --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .adjust img.button {
   width: auto !important;
   --tw-shadow: 0 0 #0000 !important;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
 .text-align-center {
@@ -1580,6 +1641,10 @@ nav ul li a.active {
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
 
+.rotate-180 {
+  --tw-rotate: 180deg !important;
+}
+
 @-webkit-keyframes spin {
   to {
     transform: rotate(360deg);
@@ -2001,6 +2066,11 @@ nav ul li a.active {
 .hover\:text-yellow-400:hover {
   --tw-text-opacity: 1 !important;
   color: rgba(251, 191, 36, var(--tw-text-opacity)) !important;
+}
+
+.dark .dark\:text-gray-300 {
+  --tw-text-opacity: 1 !important;
+  color: rgba(209, 213, 219, var(--tw-text-opacity)) !important;
 }
 
 .dark .dark\:text-gray-400 {
