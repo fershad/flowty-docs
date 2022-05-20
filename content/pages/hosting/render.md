@@ -39,4 +39,4 @@ You will also need to include the following variables that will be used when you
 
 Once you press **Deploy** your site will start building with Flowty's default settings. This might take a few minutes to complete depending on the site of your site.
 
-{% image "render.png" "Render setup" "600px" %}
+{% image "render.png" "Render setup" "800px" %}

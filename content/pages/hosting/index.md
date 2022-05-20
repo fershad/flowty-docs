@@ -23,3 +23,4 @@ Below are guides for setting up a Flowty site with popular cloud hosting provide
 - [Cloudflare Pages](/hosting/cloudflare/) (recommended)
 - [Netlify](/hosting/netlify/)
 - [Vercel](/hosting/vercel/)
+- [Render](/hosting/render/)
