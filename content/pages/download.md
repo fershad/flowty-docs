@@ -6,7 +6,7 @@ eleventyNavigation:
   key: download
   order: 12
   parent: quickstart
-  title: Download Floaty
+  title: Download Flowty
 ---
 
 Once your [site is verified](/verify-site/) you will be able to download Flowty's code.

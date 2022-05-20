@@ -12,4 +12,8 @@ To start using Flowty on a Webflow site, go to the [dashboard](https://app.flowt
 
 ## Add a new site
 
-Add a new site using the Webflow staging URL for that site. Your Webflow staging URL should end in `.webflow.io`.
+Add a new site using the Webflow staging URL for that site. This is the URL that is generated when you first publish your site in Webflow.
+
+::: callout 
+*Note: Your Webflow staging URL should end in `.webflow.io`.*
+:::
