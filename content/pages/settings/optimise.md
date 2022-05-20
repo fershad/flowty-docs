@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Flowty can automatically apply optimisations to your Webflow site's images, CSS, JavaScript, and more. Optimisations can be easily toggled on/off in the Flowty Dashboard.
 
-As a default, Flowty will download all your site's Webflow assets and serve them from the same host as the website itself. 
+Any item marked with `default` below is a base Flowty configuration, and will be turned on the first time your site builds using Flowty.
 
 ## Image optimisations
 Flowty's image optimisations allow you to use modern WebP and AVIF formats on your Webflow site.
@@ -59,7 +59,7 @@ You can also choose to have Flowty download JavaScript files that are used on yo
 Webflow allows designers to use Google Fonts or upload their own custom fonts. Flowty downloads these font files and hosts them on the same origin as the site itself.
 
 ::: callout
-*Currently Flowty only has options to download Google Fonts, and Webflow custom fonts.
+*Flowty only has options to download Google Fonts, and Webflow custom fonts.*
 :::
 
 ## Video optimisations

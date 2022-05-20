@@ -1,7 +1,7 @@
 ---
 title: Automatically Update on Webflow Publish
 date: Last Modified
-# permalink: /hosting/index.html
+permalink: /webhooks/index.html
 eleventyNavigation:
   key: webhooks
   order: 40
@@ -25,9 +25,9 @@ Once you have created a webhook on your hosting service it needs to be added to 
 1. Navigate to **Integrations**.
 1. At the very bottom of the page you will see a section titled _Webhooks_.
 1. Press **+ Add Webhook**.
-1. Select _Site publish_ as the trigger.
+1. Select `Site publish` as the trigger.
 1. Paste in the webhook URL that you created on your site's host.
-1. Press **Add Webhook* to complete the process.
+1. Press **Add Webhook** to complete the process.
 
 If this is set up properly, then a new build of your site should be triggered next time you publish an update on Webflow.
 

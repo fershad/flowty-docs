@@ -1,7 +1,7 @@
 ---
 title: Connect to a hosting service
 date: Last Modified
-# permalink: /hosting/index.html
+permalink: /hosting/index.html
 eleventyNavigation:
   key: hosting
   order: 30

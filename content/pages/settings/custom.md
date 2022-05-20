@@ -1,7 +1,7 @@
 ---
 title: Add custom code to your Webflow site
 date: Last Modified
-permalink: /settings/seo/index.html
+permalink: /settings/custom-code/index.html
 eleventyNavigation:
   key: custom-code
   order: 53
