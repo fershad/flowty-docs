@@ -1205,6 +1205,11 @@ nav ul li a.active {
   margin-bottom: 0;
 }
 
+.prose .prose a.edit {
+  color: #333;
+  text-decoration: none;
+}
+
 .prose ul.footer-nav ::before {
   display: none;
   text-decoration: none;
