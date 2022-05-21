@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Frequently asked questions
 date: Last Modified
 permalink: /faq/index.html
 eleventyNavigation:
