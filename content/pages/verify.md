@@ -23,3 +23,8 @@ To ensure you are the website owner you will be required to verify the site by m
 ## Verify in Flowty
 
 Once you've published the above changes in Webflow, return to your Flowty dashboard. Press the "Verify" button and Flowty will confirm the changes you have made.
+
+## How do I know my site is verified?
+
+Only once your site is verified will you be able to download Flowty's code.
+You will also be unable to edit your site's settings if it is unverified.
