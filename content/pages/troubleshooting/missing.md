@@ -5,7 +5,7 @@ permalink: /missing-pages/index.html
 eleventyNavigation:
   key: missing-pages
   parent: faq
-  order: 61
+  order: 71
   title: Missing pages
 ---
 

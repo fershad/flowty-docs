@@ -4,7 +4,7 @@ date: Last Modified
 permalink: /troubleshooting/index.html
 eleventyNavigation:
   key: faq
-  order: 60
+  order: 70
   title: Troubleshooting
 ---
 
