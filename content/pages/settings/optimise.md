@@ -71,6 +71,12 @@ Your Webflow site's background video files can be downloaded, and served from th
 ### Optimise Youtube embeds
 Flowty uses the [Lite Youtube Embed](https://github.com/paulirish/lite-youtube-embed) package to significantly reduce the amount of data consumed by embedded Youtube videos when a page is first loaded.
 
+## Optimise other embeds
+Flowty can also help optimise other types of embedded content.
+
+### Lazy load iframes
+Adds the `loading="lazy"` attribute to iframe tags, allowing the browser to defer download their content until just before the user will see it.
+
 ## Other optimisations
 
 - Remove the “Made in Webflow” branding on pages. `default`
