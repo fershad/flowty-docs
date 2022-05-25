@@ -4,7 +4,7 @@ date: Last Modified
 permalink: /failing-builds/index.html
 eleventyNavigation:
   key: failing-builds
-  parent: faq
+  parent: troubleshooting
   order: 72
   title: Failing builds
 ---

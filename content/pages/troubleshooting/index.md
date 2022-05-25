@@ -3,7 +3,7 @@ title: Troubleshooting
 date: Last Modified
 permalink: /troubleshooting/index.html
 eleventyNavigation:
-  key: faq
+  key: troubleshooting
   order: 70
   title: Troubleshooting
 ---

@@ -4,7 +4,7 @@ date: Last Modified
 permalink: /missing-pages/index.html
 eleventyNavigation:
   key: missing-pages
-  parent: faq
+  parent: troubleshooting
   order: 71
   title: Missing pages
 ---
