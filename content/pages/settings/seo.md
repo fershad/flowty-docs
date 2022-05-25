@@ -19,9 +19,16 @@ By default, Flowty will use your site's Webflow staging URL when building your s
 
 You can [set a custom domain](/settings/website/) for your site in the **Website settings** tab. If set, it will be used as the base URL for your sitemap when it is generated.
 
-::: callout
-*Currently all pages of your site will be included in the sitemap. I am actively working on a way for users to selectively exclude pages.*
-:::
+### Excluding pages from the sitemap
+You can exclude a page from the sitemap by add the `sitemap="no"` custom attribute to the body element of that page in Webflow. To do this:
+
+1. In the Webflow Designer, go to the page you want to exclude.
+1. Select the body element of that page.
+1. Open the _Element Settings_ panel on the right (by clicking the gear icon - ⚙️).
+1. Add a new custom attribute with the following inputs:
+  - **Name**: `sitemap`
+  - **Value**: `no`
+1. Save the attribute, and publish your site.
 
 ### Robots.txt
 Robots.txt files allow you to tell search engines to ignore certain pages/parts of your site.
