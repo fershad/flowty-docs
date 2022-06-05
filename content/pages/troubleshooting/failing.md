@@ -17,4 +17,4 @@ If you find that your Flowty website is failing to build, there are a few things
 - Turn off all CSS optimisations
     - Like AVIF, these build steps can be resource intensive and might cause your build to fail.
 - Ensure that your [Flowty site is verified](/verify-site/).
-- Ensure that your Webflow Staging URL is online, and publically accessible.
+- Ensure that your Webflow Staging URL is online, and publicly accessible.
