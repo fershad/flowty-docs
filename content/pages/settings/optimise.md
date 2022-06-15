@@ -79,6 +79,4 @@ Adds the `loading="lazy"` attribute to iframe tags, allowing the browser to defe
 
 ## Other optimisations
 
-- Remove the “Made in Webflow” branding on pages. `default`
 - Download website metadata (icons, open graph images etc) and host them locally. `default`
-- Use [instant.page](https://instant.page) to improve site navigation.

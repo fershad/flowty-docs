@@ -2,11 +2,6 @@
 title: Webflow sitemap and robots.txt
 date: Last Modified
 permalink: /settings/seo/index.html
-eleventyNavigation:
-  key: seo
-  order: 52
-  parent: settings
-  title: Configure sitemap and robots.txt
 ---
 
 In your site's dashboard, navigate to the **SEO** tab to adjust theese settings. Both the sitemap and robots.txt options are disabled by default.

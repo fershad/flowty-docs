@@ -22,8 +22,6 @@ eleventyNavigation:
     - There are still a few things that Flowty can't automatically optimise. This includes Lottie animations, iframes and emdedded content, and third-party content. When working with these elements, you will need to make decisions on how you use them in order to keep your site sustainable.
 7. Do Webflow's forms still work?
     - Yes, they will still work based on the limits of your site’s Webflow plan.
-8. Can I edit or do more to the code?
-    - You can run the Flowty code locally, and make any further modifications you need. Please note, this approach will mean you must manually update the version of Flowty your site uses.
 9. Can I get help with further Webflow optimisations?
     - Yes, absolutely! If you’d like a performance audit of your Webflow design, or want a quick consulting call, email [hello@flowty.site](mailto:hello@flowty.site).
 10. Can I see a demo?

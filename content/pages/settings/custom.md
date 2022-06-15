@@ -2,11 +2,6 @@
 title: Add custom code to your Webflow site
 date: Last Modified
 permalink: /settings/custom-code/index.html
-eleventyNavigation:
-  key: custom-code
-  order: 53
-  parent: settings
-  title: Add custom code
 ---
 
 Adding custom code to your site is currently only possible with a Webflow Site plan. Flowty allows you to add custom code snippets to the `head` and `body` sections of your site. This gives you a way to add custom functionality, analytics scripts, and other services your site.
