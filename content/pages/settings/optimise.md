@@ -9,7 +9,7 @@ eleventyNavigation:
   title: Configure optimisations
 ---
 
-Flowty can automatically apply optimisations to your Webflow site's images, CSS, JavaScript, and more. Optimisations can be easily toggled on/off in the Flowty Dashboard.
+Flowty can automatically apply optimisations to your Webflow site's images, CSS, JavaScript, and more. Optimisations can be easily toggled on/off in the `src/_data/config.js` file. 
 
 Any item marked with `default` below is a base Flowty configuration and cannot be changed.
 
