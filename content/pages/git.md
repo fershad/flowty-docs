@@ -10,18 +10,6 @@ eleventyNavigation:
 
 It's recommended you use [GitHub](#using-github) or [GitLab](#using-gitlab) to host the code.
 
-::: warning 
-*If you are using an online git repository, please ensure that your repository is set to `private`.*
-:::
-
-Your final repository should only contain the following three files:
-
-- `index.js`
-- `package.json`
-- `package-lock.json`
-
-{% image "git-files.png" "Files uploaded to GitHub" %}
-
 ## Using GitHub
 If you want to use GitHub as your code repository, you will need to: 
 

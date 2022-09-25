@@ -2,7 +2,7 @@
   "name": "Docs",
   "subtitle": "Build fast, low-carbon Webflow sites in minutes.",
   "description": "Flowty gives designers who build with Weblow the power to create fast, low-carbon, self-hosted sites in minutes.",
-  "footer": "<p>Flowty is made in 🇹🇼 Taiwan by <a href='https://fershad.com'>Fershad Digital LTD</a>.</p><p><em>Flowty is currently in a closed alpha. <a href='mailto:hello@flowty.com'>Email me</a> if you would like to be notified when it is generally available in beta.</em>></p>",
+  "footer": "<p>Flowty is available on <a href='https://github.com/fershad/flowty'>GitHub</a> under an <a href='https://github.com/fershad/flowty/blob/main/LICENSE'>Apache 2.0 license</a>.</p>",
   "url": "https://flowty.site",
   "githubUrl": "https://github.com/fershad/flowty-docs",
   "githubBranch": "main",

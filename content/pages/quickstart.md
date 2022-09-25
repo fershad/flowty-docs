@@ -8,11 +8,22 @@ eleventyNavigation:
   title: Getting started
 ---
 
-To start using Flowty on a Webflow site, go to the [dashboard](https://app.flowty.site) and press "Add new site".
+To start using Flowty [clone or download the code](https://github.com/fershad/flowty) that is available on GitHub.
 
-## Add a new site
+## Configure your site
 
-Add a new site using the Webflow staging URL for that site. This is the URL that is generated when you first publish your site in Webflow.
+Once you have got the code from GitHub, navigate to the `/src/_data/config.js` file. In here, add the Webflow URL of your site to the `webflowUrl` field.
+
+If you are planning to host your site on a custom domain, then you can also add that in this file.
+
+```js
+module.exports = {
+  "webflowUrl": "https://your-site.webflow.io",
+  "customDomain": "https://www.my-site.com",
+  // Remaining settings removed for brevity
+  ...
+}
+```
 
 ::: callout 
 *Note: Your Webflow staging URL should end in `.webflow.io`.*

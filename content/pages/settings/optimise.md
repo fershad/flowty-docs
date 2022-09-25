@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Flowty can automatically apply optimisations to your Webflow site's images, CSS, JavaScript, and more. Optimisations can be easily toggled on/off in the Flowty Dashboard.
 
-Any item marked with `default` below is a base Flowty configuration, and will be turned on the first time your site builds using Flowty.
+Any item marked with `default` below is a base Flowty configuration and cannot be changed.
 
 ## Image optimisations
 Flowty's image optimisations allow you to use modern WebP and AVIF formats on your Webflow site.
@@ -22,10 +22,14 @@ Images can be downloaded, and served from the same domain as the website itself.
 ### WebP and AVIF
 Webflow does not serve WebP or AVIF versions of images. Flowty runs all images through an optimisation step and serves modern formats with a fallback for older browsers.
 
+::: callout
+*AVIF processing is extremely intensive and could cause your website build to fail. For that reason it is turned off by default. You can turn it on again by editing the `src/data/config.js` file for your project.*
+:::
+
 ### Automatically set lazy loading `default`
 With lazy loading applied to images, the browser will wait to download images until the user is just about to see them. This help reduce the amount of data used when a site is first loaded.
 
-### Optimise CSS background images
+### Optimise CSS background images `default`
 Background images that are requested via CSS also get downloaded locally, and run through an optimisation step to reduce their size.
 
 ## CSS 
@@ -52,10 +56,10 @@ Some sites don’t much interactivity. In these cases, designers can save kiloby
 ### Minify `default`
 Sites on Webflow’s free plan come with unminified JS. Flowty runs a minification step on the Javascript files it downloads, to reduce their transfer size.
 
-### Download JavaScript from CDNs
+### Download JavaScript from CDNs `default`
 You can also choose to have Flowty download JavaScript files that are used on your site from known JavaScript CDNs. This can help with performance, and also lets you be sure those files are being served from a green web host.
 
-## Font optimisations
+## Font optimisations `default`
 Webflow allows designers to use Google Fonts or upload their own custom fonts. Flowty downloads these font files and hosts them on the same origin as the site itself.
 
 ::: callout

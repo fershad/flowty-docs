@@ -16,5 +16,8 @@ If you find that your Flowty website is failing to build, there are a few things
     - AVIF optimisations are very resource intensive, and could cause your site build to time out.
 - Turn off all CSS optimisations
     - Like AVIF, these build steps can be resource intensive and might cause your build to fail.
-- Ensure that your [Flowty site is verified](/verify-site/).
 - Ensure that your Webflow Staging URL is online, and publicly accessible.
+
+::: callout 
+*Please note that Webflow may make changes to their service at any time that could cause Flowty to stop working.*
+:::

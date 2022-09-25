@@ -25,12 +25,11 @@ Here, you can give your site whatever name you like. Leave the `branch` field se
 Pleaes take special note of the below build settings that you will need to apply:
 
 - **Build Command**: `npm run build`
-- **Publish Directory**: `flowty/_site`
+- **Publish Directory**: `_site`
 
 ## Advanced build settings
 You will also need to include the following variables that will be used when your site builds.
 
-- **CONFIG_SITE_ID**: Your site ID (you can find this in the Flowty dashboard).
 - **NODE_VERSION**: 16
 
 ::: callout
@@ -38,5 +37,3 @@ You will also need to include the following variables that will be used when you
 :::
 
 Once you press **Deploy** your site will start building with Flowty's default settings. This might take a few minutes to complete depending on the site of your site.
-
-{% image "render.png" "Render setup" "800px" %}

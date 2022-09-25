@@ -8,7 +8,7 @@ eleventyNavigation:
   title: Troubleshooting
 ---
 
-Sometimes things can go wrong. If you're having some trouble with your Flowty site, check the articles below. If you're still having issues, reach out to me by email at [support@flowty.site](mailto:support@flowty.site).
+Sometimes things can go wrong. If you're having some trouble with your Flowty site, check the articles below.
 
 - Some pages are missing from my Flowty site.
 - My Flowty site build is failing.
